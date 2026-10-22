@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Inner Glow Ring -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4"/>
+  
+  <!-- Book / Documents Symbol -->
+  <path d="M128 368V168c0-17.7 14.3-32 32-32h192c17.7 0 32 14.3 32 32v200c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32z" fill="#ffffff" opacity="0.12"/>
+  
+  <!-- Main Shield & Pages -->
+  <path d="M148 180c0-11 9-20 20-20h176c11 0 20 9 20 20v180c0 11-9 20-20 20H168c-11 0-20-9-20-20V180z" fill="#ffffff"/>
+  <path d="M188 220h136M188 260h136M188 300h90" stroke="#4f46e5" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Star / Plaza Badge -->
+  <circle cx="340" cy="180" r="42" fill="url(#gold)"/>
+  <polygon points="340,150 348,170 370,172 353,186 358,208 340,196 322,208 327,186 310,172 332,170" fill="#ffffff"/>
+  
+  <!-- Bottom Banner: AAE -->
+  <rect x="156" y="380" width="200" height="44" rx="22" fill="#1e1b4b"/>
+  <text x="256" y="411" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#fbbf24" text-anchor="middle" letter-spacing="4">MI OPO AAE</text>
+</svg>

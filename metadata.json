@@ -1,0 +1,6 @@
+{
+  "name": "MiOpo AAE",
+  "description": "Aplicación integral para la preparación de la oposición de Auxiliar Administrativo del Estado (AAE) con temario, flashcards SM-2, registro de errores, planificador con Pomodoro, técnicas mnemotécnicas y sincronización con Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
